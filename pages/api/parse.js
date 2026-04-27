@@ -55,7 +55,7 @@ If a field is not visible or unclear, use empty string "". Extract every row you
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify({
-        model: 'claude-opus-4-6',
+        model: 'claude-sonnet-4-6',
         max_tokens: 2048,
         messages: [
           {
